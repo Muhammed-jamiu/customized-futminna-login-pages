@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 500px;
+  margin: 70px auto;
+  background: url(./pro.photo/fut.gate.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container {
+  border: 3px solid #660066;
+  /* width: 280px; */
+  height: 390px;
+  width: 350px;
+  margin: 70px auto;
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+  border-radius: 10px;
+  background: url(./pro.photo/fut.gate.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  box-shadow: 3px 8px 6px dimgray;
+}
+
+.schoolName {
+  color: #fff;
+  font-size: 13px;
+  position: relative;
+  top: 14px;
+  left: 13px;
+  border: 1px solid #660066;
+  background-color: #660066;
+  width: 320px;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 3px 8px 6px dimgray;
+}
+
+.schoolName:hover {
+  color: #660066;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form {
+  margin-left: 50px;
+  padding: 20px;
+  border: 3px solid #660066;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  position: relative;
+  top: 25px;
+  background-color: #660066;
+  background: rgba(240, 230, 221, 0.56);
+  /* background: rgba(red, green, blue, alpha); */
+  box-sizing: border-box;
+  box-shadow: 3px 8px 6px dimgray;
+}
+
+form label {
+  position: relative;
+  right: 9px;
+  color: white;
+  border: 1px solid #660066;
+
+  border-radius: 5px;
+  font-family: sans-serif;
+  height: 30px;
+  width: 100px;
+  bottom: 2px;
+  background-color: #660066;
+  text-align: center;
+}
+form input {
+  position: relative;
+  right: 10px;
+  width: 110%;
+  height: 30px;
+  outline: none;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+#btn {
+  width: 70px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #660066;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  bottom: 8px;
+  left: 65px;
+  box-sizing: border-box;
+  box-shadow: 3px 8px 6px dimgray;
+}
+#btn:active {
+  background-color: green;
+  border-color: green;
+  transform: rotate(-10deg);
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: green;
+  border-color: green;
+  transform: rotate(15deg);
+  cursor: pointer;
+}
+
+.forgotpassword a {
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 14px;
+  position: relative;
+  border-radius: 5px;
+  left: px;
+  bottom: 10px;
+  border: 1px solid #660066;
+  background-color: #660066;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+/* .forgotpassword a:hover {
+    cursor: pointer;
+    color: #660066;
+    background-color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+  } */
+
+.inside {
+  margin-top: 1px;
+}
+
+.image p {
+  /* color: blue; */
+  color: #fff;
+  margin-left: 50px;
+  position: relative;
+  bottom: 35px;
+  font-size: 20px;
+  border: 1px solid #660066;
+  background-color: #660066;
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 3px 8px 6px dimgray;
+}
+
+.image p:hover {
+  cursor: pointer;
+  color: #660066;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.undergrad a,
+.postgrad a,
+.staff a {
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+
+.undergrad {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 75px;
+  position: relative;
+  left: 40px;
+  background-color: #660066;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 3px 8px 6px dimgray;
+}
+
+.postgrad {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 70px;
+  position: relative;
+  left: 50px;
+  background-color: #660066;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 3px 8px 6px dimgray;
+}
+
+.staff {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 70px;
+  position: relative;
+  font-family: sans-serif;
+  left: 130px;
+  background-color: #660066;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 3px 8px 6px dimgray;
+}
+
+.undergrad:hover,
+.postgrad:hover,
+.staff:hover {
+  background-color: green;
+  border-color: green;
+  transform: rotate(10deg);
+}
+
+.btns {
+  position: relative;
+  bottom: 10px;
+}
+
+.action p:hover {
+  cursor: pointer;
+  color: #660066;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+}
