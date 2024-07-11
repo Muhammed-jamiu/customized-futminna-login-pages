@@ -93,6 +93,7 @@ form input {
   outline: none;
   text-align: justify;
   border-radius: 10px;
+  padding: 10px;
 }
 
 #btn {
